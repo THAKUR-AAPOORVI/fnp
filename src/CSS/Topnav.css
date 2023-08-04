@@ -1,0 +1,46 @@
+/* topbar   */
+
+.navitem {
+ 
+    justify-content: end;
+    display: flex;
+  
+}
+/* 765644 */
+  .nextbar{
+background-color:#6B4F43;
+  }
+
+  .custom-toggler .navbar-toggler-icon {
+    /* background-image: url('path/to-your-three-dots-icon.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    border: none; /* Remove any default border */
+  }
+   /* third  */
+   .third{
+    background-color: #FFFFFF;
+   }
+   .custom-dropdown .dropdown-toggle {
+    cursor: pointer;
+  }
+  
+  .custom-dropdown .dropdown-toggle.nav-link {
+    color: black; /* Change the title color to black */
+  }
+  
+  .dropdown-content {
+    display: none;
+    /* position: absolute; */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    border: 1px solid #ccc;
+  }
+  
+  .custom-dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
